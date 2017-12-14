@@ -21,7 +21,7 @@ public class wtpui extends VanillaCommand {
     this.plugin = main;
   }
   
-  public Main getPlugin() {
+  public Main getPlugin(){
     return plugin;
   }
 
@@ -34,8 +34,8 @@ public class wtpui extends VanillaCommand {
     window.addButton(new ElementButton("Cancel"));
   for(Level lvl : level.values()){
     window.addButton(new ElementButton(lvl.getFolderName()));
-    ((Player) player).showFormWindow(window);
   } 
+    ((Player) player).showFormWindow(window);
   } else {
     player.sendMessage(TextFormat.RED +"You have to be op to use this command!");
   }
