@@ -8,6 +8,9 @@
 
 > Minecraft: v1.2.x
 
+# Download
+download the latest jar file [here](https://github.com/PlexusStudio/WorldTpUI-Nukkit/releases) and drop it in your plugins folder
+
 # How to Use
 Drop the jar in your plugins folder.
 
