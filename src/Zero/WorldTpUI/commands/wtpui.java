@@ -28,13 +28,17 @@ public class wtpui extends VanillaCommand {
   @Override
   public boolean execute(CommandSender player, String alias, String[] args){	
   if(player instanceof Player){
+  if(player.isOp()){
     final FormWindowSimple window = new FormWindowSimple("World Teleport UI", "Teleport to any world");
     Map<Integer, Level> level = getPlugin().getServer().getLevels();
     window.addButton(new ElementButton("Cancel"));
   for(Level lvl : level.values()){
     window.addButton(new ElementButton(lvl.getFolderName()));
     ((Player) player).showFormWindow(window);
-   }
+  } 
+  } else {
+    player.sendMessage(TextFormat.RED +"You have to be op to use this command!");
+  }
   } else {
 	player.sendMessage(TextFormat.RED +"You can only use /hub in-game!");  
   }
