@@ -1,3 +1,13 @@
+# Notice
+if this plugin is no longer functional, or nukkits api updates
+
+Please open an issue and I will do my best to update and fix the problems (I do not make nukkit plugins anymore so I will do my best)
+
+> Please incude in your issue
+* Issue or bug
+* Console log (if an error appears) 
+* Provide what nukkit version your using (if your using a fork please let us know)
+
 # World Teleport UI
 
 > Allows Admins to teleport between worlds with a simple UI in Nukkit
