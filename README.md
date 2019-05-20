@@ -12,18 +12,30 @@ I am back! I will be updating this plugin and will start making new plugins for 
 
 > Allows Admins to teleport between worlds with a simple UI in Nukkit
 
-> Version: v0.0.2
+> Version: v0.0.3
 
 > Minecraft: v1.11.3
 
 # Download
-download the latest jar file [here](https://github.com/AetherNetwork/Aether.WorldTpUI-Nukkit/releases) and drop it in your plugins folder
+download the latest jar file [here](https://github.com/AetherNetwork/WorldTpUI-Nukkit/releases) and drop it in your plugins folder
 
 # How to Use
 Drop the jar in your plugins folder.
 
+Edit Config:
+```
+version: 0.0.3
+adminsOnly: true
+loadWorldWithGui: true
+useItemToOpenGUI: true
+item: 339
+```
+
 > commands: /wtpui
-![ui](https://i.imgur.com/WAzvePA.png)
+![ui](https://i.imgur.com/oaLrGc5.png)
+
+> item: 339 (paper as default)
+![item](https://i.imgur.com/nK7KP2M.png)
 
 # License
 ```
