@@ -17,7 +17,7 @@ I am back! I will be updating this plugin and will start making new plugins for 
 > Minecraft: v1.11.3
 
 # Download
-download the latest jar file [here](https://github.com/AetherNetwork/WorldTpUI-Nukkit/releases) and drop it in your plugins folder
+download the latest jar file [here](https://github.com/AetherNetwork/Aether.WorldTpUI-Nukkit/releases) and drop it in your plugins folder
 
 # How to Use
 Drop the jar in your plugins folder.
