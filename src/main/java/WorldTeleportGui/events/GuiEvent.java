@@ -40,8 +40,8 @@ public class GuiEvent implements Listener {
                                     this.getPlugin().getServer().loadLevel(world);
                                 }
                             }
+                            this.getPlugin().showForm(player);
                         }
-                        this.getPlugin().showForm(player);
                     } else {
                         Level level = getPlugin().getServer().getLevelByName(button);
                         if (getPlugin().getServer().isLevelLoaded(level.getFolderName())) {
@@ -85,6 +85,11 @@ public class GuiEvent implements Listener {
                 if (customBlockData.equals("teleport")) {
                     if ((currentTime - item.getCustomBlockData().getLong("Last Used")) >= cooldown) {
                         this.getPlugin().showForm(player);
+
+                        item.setCustomBlockData(
+                                new CompoundTag()
+                                        .putString("wtp", "teleport")
+                                        .putLong("Last Used", currentTime));
                     }
                 }
             }
