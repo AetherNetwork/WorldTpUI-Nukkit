@@ -1,7 +1,7 @@
 # Notice
-if this plugin is no longer functional, or nukkits api updates
+I am back! I will be updating this plugin and will start making new plugins for nukkit
 
-Please open an issue and I will do my best to update and fix the problems (I do not make nukkit plugins anymore so I will do my best)
+
 
 > Please incude in your issue
 * Issue or bug
@@ -14,10 +14,10 @@ Please open an issue and I will do my best to update and fix the problems (I do 
 
 > Version: v0.0.2
 
-> Minecraft: v1.2.x
+> Minecraft: v1.11.3
 
 # Download
-download the latest jar file [here](https://github.com/PlexusStudio/WorldTpUI-Nukkit/releases) and drop it in your plugins folder
+download the latest jar file [here](https://github.com/AetherNetwork/WorldTpUI-Nukkit/releases) and drop it in your plugins folder
 
 # How to Use
 Drop the jar in your plugins folder.
@@ -29,7 +29,7 @@ Drop the jar in your plugins folder.
 ```
 MIT License
 
-Copyright (c) 2017 Plexus Studio
+Copyright (c) 2017-2019 Aether Network
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
